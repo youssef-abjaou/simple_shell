@@ -157,7 +157,7 @@ int sh_cd(char **args, char __attribute__((__unused__)) **front)
 }
 
 /**
- * sh_help - Displays information about sh builtin commands.
+ * sh_help - Displays information    about sh builtin commands.
  * @args: An array of arguments.
  * @front: A pointer to the beginning of args.
  * Return: If an error occurs - -1.
