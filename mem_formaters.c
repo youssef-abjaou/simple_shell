@@ -16,7 +16,7 @@ void free_env(void)
 }
 
 /**
- * free_alias_list - Frees a alias_t linked list.
+ * free_alias_list -  Frees a alias_t linked list.
  * @head: THe head of the alias_t list.
  */
 void free_alias_list(alias_t *head)
