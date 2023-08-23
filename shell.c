@@ -146,6 +146,7 @@ int main(int argc, char *argv[])
 		return (*exe_ret);
 	}
 
+
 	if (!isatty(STDIN_FILENO))
 	{
 		while (ret != END_OF_FILE && ret != EXIT)
