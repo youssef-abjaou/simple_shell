@@ -98,7 +98,7 @@ void handle_line(char **line, ssize_t read)
 }
 
 /**
- * get_new_len - Gets the new length of a line partitioned
+ * get_new_len -  Gets the new length of a line partitioned
  *               by ";", "||", "&&&", or "#".
  * @line: The line to check.
  *
