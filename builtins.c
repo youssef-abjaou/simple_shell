@@ -4,7 +4,7 @@ int (*get_builtin(char *command))(char **args, char **front);
 int sh_exit(char **args, char **front);
 int sh_cd(char **args, char __attribute__((__unused__)) **front);
 int sh_help(char **args, char __attribute__((__unused__)) **front);
-
+alias_t *aliases;
 /**
  * get_builtin - Matches a command with a corresponding
  *               sh builtin function.

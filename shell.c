@@ -3,8 +3,9 @@
 char **_copyenv(void);
 void sig_handler(int sig);
 int execute(char **args, char **front);
-
-
+char* name;
+int hist;
+alias_t *aliases;
 /**
  * _copyenv - Creates a copy of the environment.
  *

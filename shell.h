@@ -18,9 +18,9 @@
 /* Global environemnt */
 extern char **environ;
 /* Global program name */
-char *name;
+extern char *name;
 /* Global history counter */
-int hist;
+extern int hist;
 
 /**
  * struct list_s - A new struct type defining a linked list.
@@ -61,7 +61,7 @@ typedef struct alias_s
 } alias_t;
 
 /* Global aliases linked list */
-alias_t *aliases;
+/* alias_t *aliases;*/
 
 /* Main functions */
 ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
