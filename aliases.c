@@ -6,11 +6,11 @@ void print_alias(alias_t *alias);
 char **replace_aliases(char **args);
 alias_t *aliases;
 /**
- * sh_alias - Builtin command that either prints all aliases, specific
+ * sh_alias - builtin command that  prints all aliases, specific
  * aliases, or sets an alias.
- * @args: An array of arguments.
- * @front: A double pointer to the beginning of args.
- * Return: If an error occurs - -1.
+ * @@args: array of arguments.
+ * @@front: double pointer to the beginning of args.
+ * Return: If error occurs - -1.
  *         Otherwise - 0.
  */
 int sh_alias(char **args, char __attribute__((__unused__)) **front)
