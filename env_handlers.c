@@ -7,7 +7,7 @@ int sh_setenv(char **args, char __attribute__((__unused__)) **front);
 int sh_unsetenv(char **args, char __attribute__((__unused__)) **front);
 
 /**
- * get_env_value - Gets the value corresponding to an environmental variable.
+ * get_env_value - Gets   the value corresponding to an environmental variable.
  * @beginning: The environmental variable to search for.
  * @len: The length of the environmental variable to search for.
  * Return: If the variable is not found - an empty string.
