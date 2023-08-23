@@ -6,7 +6,6 @@ Syscall**
 
 Write a simple UNIX command interpreter.
 
-![Gates of Shell](https://github.com/nifemifaith07/pshell/blob/main/shellA/shell.png)
 
 ^ “The Gates of Shell”, by [Spencer Cheng](https://alx-intranet.hbtn.io/rltoken/AtYRSM03vJDrko9xHodxFQ), featuring [Julien Barbier](https://alx-intranet.hbtn.io/rltoken/-ezXgcyfhc8qU1DeUInLUA)
 ## Resources
