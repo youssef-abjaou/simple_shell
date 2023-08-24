@@ -7,7 +7,7 @@ int _strncmp(const char *s1, const char *s2, size_t n);
 int num_len(int num);
 
 /**
- * num_len - Counts the digit length of a number.
+ * num_len - Counts    the digit length of a number.
  * @num: The number to measure.
  *
  * Return: The digit length.
