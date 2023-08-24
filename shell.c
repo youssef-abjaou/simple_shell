@@ -5,7 +5,8 @@ void sig_handler(int sig);
 int execute(char **args, char **front);
 char* name;
 int hist;
-alias_t *aliases;
+
+
 /**
  * _copyenv - Creates a copy of the environment.
  *
@@ -67,6 +68,7 @@ void sig_handler(int sig)
  */
 int execute(char **args, char **front)
 {
+	alias_t *aliases = NULL;
 	pid_t child_pid;
 	int status, flag = 0, ret = 0;
 	char *command = args[0];
@@ -124,6 +126,7 @@ int execute(char **args, char **front)
  */
 int main(int argc, char *argv[])
 {
+	alias_t *aliases = NULL;
 	int ret = 0, retn;
 	int *exe_ret = &retn;
 	char *prompt = "$ ", *new_line = "\n";
